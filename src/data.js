@@ -11,7 +11,7 @@ export const heroSlides = [
   },
   {
     image: "/images/hero-3.jpg",
-    alt: "Pablo in rehearsal or performance",
+    alt: "Pablo in performance",
     caption: "Performance photo from Julius Caesar",
   },
 ];
@@ -87,19 +87,19 @@ export const galleryImages = [
     category: "Writing",
   },
   {
-    image: "/images/hero-1.jpg",
+    image: "/images/gallery-4.jpg",
     alt: "Another performance image",
     title: "Performance",
     category: "Acting",
   },
   {
-    image: "/images/hero-2.jpg",
+    image: "/images/gallery-5.jpg",
     alt: "Another writing image",
     title: "Production image",
     category: "Writing",
   },
   {
-    image: "/images/hero-3.jpg",
+    image: "/images/gallery-6.jpg",
     alt: "Another gallery image",
     title: "Stage photo",
     category: "Acting",

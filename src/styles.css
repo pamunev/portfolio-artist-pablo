@@ -13,12 +13,14 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
 }
 
 body {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -40,6 +42,10 @@ button {
 
 .app-shell {
   min-height: 100vh;
+}
+
+.page-shell {
+  width: 100%;
 }
 
 .site-header {
@@ -75,11 +81,13 @@ button {
   font-size: 0.95rem;
 }
 
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav .active-nav {
   text-decoration: underline;
 }
 
-.section {
+.page-section,
+.preview-section {
   width: min(var(--max-width), calc(100% - 40px));
   margin: 0 auto;
   padding: 90px 0;
@@ -93,16 +101,9 @@ button {
   min-height: calc(100vh - 80px);
 }
 
-.eyebrow {
-  margin: 0 0 8px;
-  font-size: 0.85rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 .hero h1,
-.section-heading h2 {
+.page-title,
+.preview-section h2 {
   margin: 0 0 16px;
   line-height: 1.05;
 }
@@ -111,8 +112,17 @@ button {
   font-size: clamp(2.4rem, 6vw, 5rem);
 }
 
-.section-heading h2 {
+.page-title,
+.preview-section h2 {
   font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .hero-text,
@@ -220,11 +230,6 @@ button {
 
 .dot.active {
   background: #1d1d1d;
-}
-
-.section-heading {
-  max-width: 760px;
-  margin-bottom: 36px;
 }
 
 .two-column {
@@ -344,6 +349,10 @@ button {
   margin: 0 auto;
   padding: 0 0 40px;
   color: var(--muted);
+}
+
+.top-spacing {
+  margin-top: 24px;
 }
 
 @media (max-width: 950px) {
