@@ -16,11 +16,11 @@ export default function Home() {
           </p>
 
           <div className="hero-buttons">
-            <Link to="/acting" className="button primary">
-              View Acting
-            </Link>
-            <Link to="/writing" className="button secondary">
+            <Link to="/writing" className="button primary">
               View Writing
+            </Link>
+            <Link to="/acting" className="button secondary">
+              View Acting
             </Link>
           </div>
         </div>
