@@ -145,6 +145,6 @@ export const newsItems = [
 export const contactInfo = {
   email: "your@email.com",
   instagram: "https://instagram.com/yourhandle",
-  resume: "/resume.pdf",
-  headshot: "/headshot.pdf",
+  resume: "/resume-acting-april-2026.pdf",
+  headshot: "/headshot-theatrical.pdf",
 };
