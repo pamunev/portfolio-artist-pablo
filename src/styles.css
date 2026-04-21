@@ -373,6 +373,14 @@ button {
   color: var(--muted);
 }
 
+.credits-section {
+  padding-top: 5px;
+}
+
+.category-section {
+  margin-top: 56px;
+}
+
 @media (max-width: 950px) {
   .hero,
   .two-column,

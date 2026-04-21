@@ -71,7 +71,7 @@ export default function Acting() {
           </div>
         </div>
       </section>
-      <section className="page-section">
+      <section className="page-section credits-section">
         <p className="eyebrow">Credits</p>
         <h2>Theatre Credits</h2>
 
@@ -87,9 +87,9 @@ export default function Acting() {
             </div>
           ))}
         </div>
-        <h2>Film & Commercial</h2>
 
-        <div className="credits-list">
+        <div className="credits-list category-section">
+          <h2>Film & Commercial</h2>
           {filmCommercialCredits.map((credit, index) => (
             <div key={index} className="credit-row">
               <h3>{credit.title}</h3>
@@ -101,9 +101,9 @@ export default function Acting() {
             </div>
           ))}
         </div>
-        <h2>Voice</h2>
 
-        <div className="credits-list">
+        <div className="credits-list category-section">
+          <h2>Voice</h2>
           {voiceCredits.map((credit, index) => (
             <div key={index} className="credit-row">
               <h3>{credit.title}</h3>
