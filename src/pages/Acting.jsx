@@ -12,7 +12,7 @@ export default function Acting() {
       <div className="two-column">
         <div className="panel">
           <img
-            src="/headshot.jpg"
+            src="/headshot-theatrical.jpg"
             alt="Headshot of Pablo Munoz-Evers"
             className="headshot"
           />

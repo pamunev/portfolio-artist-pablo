@@ -146,5 +146,5 @@ export const contactInfo = {
   email: "your@email.com",
   instagram: "https://instagram.com/yourhandle",
   resume: "/resume-acting-april-2026.pdf",
-  headshot: "/headshot-theatrical.pdf",
+  headshot: "/headshot-theatrical.jpg",
 };
