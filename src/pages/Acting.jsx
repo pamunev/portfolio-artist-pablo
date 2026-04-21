@@ -52,6 +52,8 @@ export default function Acting() {
               </a>
             </div>
 
+            <h2 className="subsection-title">Selected Roles</h2>
+
             <div className="credit-list">
               {actingCredits.map((credit) => (
                 <div
@@ -77,7 +79,40 @@ export default function Acting() {
           {theatreCredits.map((credit, index) => (
             <div key={index} className="credit-row">
               <h3>{credit.title}</h3>
-              <p>{credit.details}</p>
+              <p>
+                {credit.role} • {credit.company} • {credit.year}
+                {credit.director ? ` • Dir. ${credit.director}` : ""}
+                {credit.note ? ` • ${credit.note}` : ""}
+              </p>
+            </div>
+          ))}
+        </div>
+        <h2>Film & Commercial</h2>
+
+        <div className="credits-list">
+          {filmCommercialCredits.map((credit, index) => (
+            <div key={index} className="credit-row">
+              <h3>{credit.title}</h3>
+              <p>
+                {credit.role} • {credit.type} • {credit.year}
+                {credit.director ? ` • Dir. ${credit.director}` : ""}
+                {credit.note ? ` • ${credit.note}` : ""}
+              </p>
+            </div>
+          ))}
+        </div>
+        <h2>Voice</h2>
+
+        <div className="credits-list">
+          {voiceCredits.map((credit, index) => (
+            <div key={index} className="credit-row">
+              <h3>{credit.title}</h3>
+              <p>
+                {credit.role} • {credit.project}{" "}
+                {credit.type ? ` • ${credit.type}` : ""} • {credit.year}
+                {credit.director ? ` • Dir. ${credit.director}` : ""}
+                {credit.note ? ` • ${credit.note}` : ""}
+              </p>
             </div>
           ))}
         </div>
