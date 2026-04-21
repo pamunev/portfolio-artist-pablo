@@ -355,6 +355,24 @@ button {
   margin-top: 24px;
 }
 
+/* Full Credits Styles */
+
+.credits-list {
+  margin-top: 24px;
+  display: grid;
+  gap: 18px;
+}
+
+.credit-row h3 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+}
+
+.credit-row p {
+  margin: 0;
+  color: var(--muted);
+}
+
 @media (max-width: 950px) {
   .hero,
   .two-column,

@@ -149,3 +149,88 @@ export const contactInfo = {
   resume: "/resume-acting-april-2026.pdf",
   headshot: "/headshot-theatrical.jpg",
 };
+
+export const theatreCredits = [
+  {
+    title: "Coriolanus (title role)",
+    details: "Walking Shadow Shakespeare Project • Dir. Andrew Mendoza",
+  },
+  {
+    title: "The Wolf You Feed",
+    details: "The VORTEX • Dir. Chris Fontanes",
+  },
+  {
+    title: "Caesar + Antony + Cleopatra (Julius Caesar)",
+    details: "Walking Shadow Shakespeare Project • Dir. Stephanie Crugnola",
+  },
+  {
+    title: "MotherTree (world premiere) (Bud)",
+    details: "The VORTEX • Dir. Bonnie Cullum",
+  },
+  {
+    title: "Appeal (musical, world premiere) (Gus García – lead)",
+    details: "ACC Drama • Dir. Carl Gonzales",
+  },
+  {
+    title: "An Enemy of the People (Hovstad)",
+    details: "Austin Shakespeare • Dir. Ann Ciccolella",
+  },
+  {
+    title: "El Cid (Don Sánchez)",
+    details: "Austin Shakespeare • Dir. Ann Ciccolella",
+  },
+  {
+    title: "Hamlet (title role)",
+    details: "The Baron’s Men • Dir. Laura Trezise",
+  },
+  {
+    title: "The Woman in the Attic (Edgar)",
+    details: "FronteraFest • Dir. Lacey Cannon Gonzales",
+  },
+  {
+    title: "Romeo and Juliet (Tybalt)",
+    details: "Austin Shakespeare • Dir. Ann Ciccolella",
+  },
+  {
+    title: "Cymbeline (Cloten)",
+    details: "Walking Shadow Shakespeare Project • Dir. Stephanie Crugnola",
+  },
+  {
+    title: "Romeo and Juliet (Mercutio)",
+    details: "The Baron’s Men • Dir. Lindsay Palinsky",
+  },
+  {
+    title: "The Full Monty (Tony Giordano)",
+    details: "TexARTS • Dir. Kasey RT Graham",
+  },
+  {
+    title: "A Midsummer Night’s Dream (Demetrius)",
+    details: "The Baron’s Men • Dir. Leigh Toland",
+  },
+  {
+    title: "The Tempest (Caliban)",
+    details: "The Baron’s Men • Dir. Lindsay Palinsky",
+  },
+];
+
+export const filmCommercialCredits = [
+  {
+    title: "The Old House",
+    details: "Javier Chavez • Short Film • Dir. Joseph Chavez",
+  },
+  {
+    title: "Is My Boyfriend Cheating on (…) ?",
+    details: "Boyfriend • Short Film • Dir. Caroline Schaeffer",
+  },
+  {
+    title: "Academy Sports Holiday/Family Spot",
+    details: "OCP (Dad) • Commercial • Non-Union • Austin, TX",
+  },
+];
+
+export const voiceCredits = [
+  {
+    title: "BoL - Ep. 4, “The Elders”",
+    details: "Teshiem • Burden of Legacy • Dir. Marcus McQuirter",
+  },
+];
