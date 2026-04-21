@@ -54,6 +54,7 @@ export default function Acting() {
                 <h3>{credit.title}</h3>
                 <p>
                   {credit.role} • {credit.company} • {credit.year}
+                  {credit.note ? ` • ${credit.note}` : ""}
                 </p>
               </div>
             ))}

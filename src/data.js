@@ -24,9 +24,15 @@ export const actingCredits = [
     year: "2026",
   },
   {
-    title: "Julius Caesar + Antony + Cleopatra",
+    title: "Hamlet",
+    company: "The Baron's Men",
+    role: "Hamlet",
+    year: "2022",
+  },
+  {
+    title: "Caesar + Antony + Cleopatra",
     company: "Walking Shadow Shakespeare Project",
-    role: "Performer",
+    role: "Julius Caesar",
     year: "2026",
   },
   {
@@ -34,12 +40,7 @@ export const actingCredits = [
     company: "The VORTEX",
     role: "Bud",
     year: "2025",
-  },
-  {
-    title: "Romeo and Juliet",
-    company: "Austin Shakespeare",
-    role: "Tybalt",
-    year: "2024",
+    note: "world premiere",
   },
 ];
 
