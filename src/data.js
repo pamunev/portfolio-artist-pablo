@@ -1,18 +1,31 @@
 export const heroSlides = [
   {
-    image: "/images/hero-1.jpg",
+    image: "/images/cac-calpurnia-wide.png",
     alt: "Pablo performing onstage",
-    caption: "Onstage in Coriolanus with Walking Shadow Shakespeare Project",
+    caption:
+      "Onstage in CAESAR + ANTONY + CLEOPATRA with Walking Shadow Shakespeare Project",
   },
   {
-    image: "/images/hero-2.jpg",
+    image: "/images/ilye-divine-shadow.jpg",
     alt: "Production image from a play by Pablo",
-    caption: "Production still from I'm Not a Dog",
+    caption:
+      "I LOVED YOU EVER by Pablo Munoz-Evers (Walking Shadow Shakespeare Project)",
   },
   {
-    image: "/images/hero-3.jpg",
-    alt: "Pablo in performance",
-    caption: "Performance photo from Julius Caesar",
+    image: "/images/dreams-toothpicking.JPG",
+    alt: "Production image from a play by Pablo",
+    caption: "DREAMS by Pablo Munoz-Evers (Out of Ink, ScriptWorks)",
+  },
+  {
+    image: "/images/ilye-laura-me-full.png",
+    alt: "Production image from a play by Pablo",
+    caption:
+      "Onstage in I LOVED YOU EVER by Pablo Munoz-Evers (Walking Shadow Shakespeare Project)",
+  },
+  {
+    image: "/images/dreams-sad-zac.JPG",
+    alt: "Production image from a play by Pablo",
+    caption: "DREAMS by Pablo Munoz-Evers (Out of Ink, ScriptWorks)",
   },
 ];
 
