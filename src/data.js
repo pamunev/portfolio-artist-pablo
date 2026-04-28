@@ -81,42 +81,56 @@ export const writingWorks = [
   },
 ];
 
-export const galleryImages = [
+export const galleryProductions = [
   {
-    image: "/images/gallery-1.jpg",
-    alt: "Production still one",
-    title: "Production still",
-    category: "Acting",
+    slug: "dreams",
+    title: "DREAMS",
+    categories: ["Writing"],
+    coverImage: "/images/dreams-toothpicking.JPG",
+    alt: "Production image from DREAMS",
+    caption: "Out of Ink, ScriptWorks | 2023",
+    images: [
+      {
+        src: "/images/dreams-toothpicking.JPG",
+        alt: "DREAMS production photo",
+      },
+      {
+        src: "/images/dreams-sad-zac.JPG",
+        alt: "DREAMS production photo",
+      },
+    ],
   },
   {
-    image: "/images/gallery-2.jpg",
-    alt: "Production still two",
-    title: "Onstage performance",
-    category: "Acting",
+    slug: "i-loved-you-ever",
+    title: "I Loved You Ever",
+    categories: ["Writing", "Acting"],
+    coverImage: "/images/ilye-divine-shadow.jpg",
+    alt: "Production image from I Loved You Ever",
+    caption: "Walking Shadow Shakespeare Project | 2026",
+    images: [
+      {
+        src: "/images/ilye-divine-shadow.jpg",
+        alt: "I Loved You Ever production photo",
+      },
+      {
+        src: "/images/ilye-laura-me-full.png",
+        alt: "I Loved You Ever production photo",
+      },
+    ],
   },
   {
-    image: "/images/gallery-3.jpg",
-    alt: "Play production image",
-    title: "Play production",
-    category: "Writing",
-  },
-  {
-    image: "/images/gallery-4.jpg",
-    alt: "Another performance image",
-    title: "Performance",
-    category: "Acting",
-  },
-  {
-    image: "/images/gallery-5.jpg",
-    alt: "Another writing image",
-    title: "Production image",
-    category: "Writing",
-  },
-  {
-    image: "/images/gallery-6.jpg",
-    alt: "Another gallery image",
-    title: "Stage photo",
-    category: "Acting",
+    slug: "caesar-antony-cleopatra",
+    title: "Caesar + Antony + Cleopatra",
+    categories: ["Acting"],
+    coverImage: "/images/cac-calpurnia-wide.png",
+    alt: "Production image from Caesar + Antony + Cleopatra",
+    caption: "Walking Shadow Shakespeare Project | 2025",
+    images: [
+      {
+        src: "/images/cac-calpurnia-wide.png",
+        alt: "Caesar + Antony + Cleopatra production photo",
+      },
+    ],
   },
 ];
 

@@ -7,6 +7,7 @@ import Gallery from "./pages/Gallery";
 import Reviews from "./pages/Reviews";
 import News from "./pages/News";
 import Contact from "./pages/Contact";
+import GalleryProduction from "./pages/GalleryProduction";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="acting" element={<Acting />} />
         <Route path="writing" element={<Writing />} />
         <Route path="gallery" element={<Gallery />} />
+        <Route path="gallery/:slug" element={<GalleryProduction />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="news" element={<News />} />
         <Route path="contact" element={<Contact />} />

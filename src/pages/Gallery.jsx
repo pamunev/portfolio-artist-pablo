@@ -1,15 +1,17 @@
 import { useMemo, useState } from "react";
-import { galleryImages } from "../data";
+import { Link } from "react-router-dom";
+import { galleryProductions } from "../data";
 
 export default function Gallery() {
   const filters = useMemo(() => ["All", "Acting", "Writing"], []);
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filteredImages =
+  const filteredProductions =
     activeFilter === "All"
-      ? galleryImages
-      : galleryImages.filter((item) => item.category === activeFilter);
-
+      ? galleryProductions
+      : galleryProductions.filter((item) =>
+          item.categories.includes(activeFilter),
+        );
   return (
     <section className="page-section">
       <p className="eyebrow">Gallery</p>
@@ -33,14 +35,23 @@ export default function Gallery() {
       </div>
 
       <div className="gallery-grid">
-        {filteredImages.map((item, index) => (
-          <figure key={`${item.title}-${index}`} className="gallery-item">
-            <img src={item.image} alt={item.alt} />
-            <figcaption>
-              <strong>{item.title}</strong>
-              <span>{item.category}</span>
-            </figcaption>
-          </figure>
+        {filteredProductions.map((production) => (
+          <Link
+            key={production.slug}
+            to={`/gallery/${production.slug}`}
+            className="gallery-card-link"
+          >
+            <figure className="gallery-item">
+              <img src={production.coverImage} alt={production.alt} />
+              <figcaption>
+                <strong>{production.title}</strong>
+                <span>{production.caption}</span>
+                <span className="category">
+                  {production.categories.join(" / ")}
+                </span>
+              </figcaption>
+            </figure>
+          </Link>
         ))}
       </div>
     </section>
