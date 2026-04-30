@@ -158,11 +158,15 @@ export const reviewItems = [
 export const newsItems = [
   {
     date: "April 2026",
-    text: "I'm Not a Dog selected for ScriptWorks Out of Ink.",
+    text: "I'm Not a Dog selected for ScriptWorks Out of Ink 2026: Astronomical and runs from April 30 - May 9 at Hyde Park Theatre.",
+    link: {
+      url: "https://events.humanitix.com/out-of-ink-2026-astronomical",
+      label: "Get tickets here.",
+    },
   },
   {
     date: "March 2026",
-    text: "I Loved You Ever premiered with Walking Shadow Shakespeare Project.",
+    text: "I Loved You Ever premiered with Walking Shadow Shakespeare Project as part of Short Shakespeare.",
   },
   {
     date: "2025",

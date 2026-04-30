@@ -11,10 +11,18 @@ export default function Home() {
           <p className="eyebrow">Pablo Munoz-Evers</p>
           <h1>Playwright and Actor</h1>
           <p className="hero-text">
-            Theatre artist based in Austin. This site collects my performance
-            work, writing, production images, reviews, and current updates.
+            Pablo Munoz-Evers is a Colombian-born playwright and actor based in
+            Austin, Texas.
           </p>
-
+          <p className="hero-text">
+            His written work explores belonging, displacement, attachment,
+            family, and the ups and downs of romantic relationships. Funny
+            plays, sad plays, funny-sad plays, magical realism, and more.
+          </p>
+          <p className="hero-text">
+            He has years of experience performing in plays, commercials,
+            podcasts, and short films in the Austin area and beyond.
+          </p>
           <div className="hero-buttons">
             <Link to="/writing" className="button primary">
               View Writing
@@ -28,30 +36,6 @@ export default function Home() {
         <HeroCarousel />
       </section>
 
-      <SectionPreview
-        eyebrow="Acting"
-        title="Performance Work"
-        text="Selected roles, production history, and acting materials."
-        linkTo="/acting"
-        linkText="Go to Acting"
-      />
-
-      <SectionPreview
-        eyebrow="Writing"
-        title="Plays and Other Work"
-        text="Featured plays, commissions, and a growing archive of writing."
-        linkTo="/writing"
-        linkText="Go to Writing"
-      />
-
-      <SectionPreview
-        eyebrow="Gallery"
-        title="Production Images"
-        text="A visual archive of performance work and productions of my writing."
-        linkTo="/gallery"
-        linkText="Go to Gallery"
-      />
-
       <section className="page-section">
         <p className="eyebrow">News</p>
         <h2>Latest Updates</h2>
@@ -59,7 +43,14 @@ export default function Home() {
           {newsItems.slice(0, 3).map((item, index) => (
             <article key={index} className="news-item">
               <p className="news-date">{item.date}</p>
-              <p className="news-text">{item.text}</p>
+              <p className="news-text">
+                {item.text}{" "}
+                {item.link && (
+                  <a href={item.link.url} target="_blank" rel="noreferrer">
+                    {item.link.label}
+                  </a>
+                )}
+              </p>
             </article>
           ))}
         </div>
@@ -69,6 +60,30 @@ export default function Home() {
             More News
           </Link>
         </div>
+
+        <SectionPreview
+          eyebrow="Acting"
+          title="Performance Work"
+          text="Selected roles, production history, and acting materials."
+          linkTo="/acting"
+          linkText="Go to Acting"
+        />
+
+        <SectionPreview
+          eyebrow="Writing"
+          title="Plays and Other Work"
+          text="Featured plays, commissions, and a growing archive of writing."
+          linkTo="/writing"
+          linkText="Go to Writing"
+        />
+
+        <SectionPreview
+          eyebrow="Gallery"
+          title="Production Images"
+          text="A visual archive of performance work and productions of my writing."
+          linkTo="/gallery"
+          linkText="Go to Gallery"
+        />
       </section>
     </div>
   );
