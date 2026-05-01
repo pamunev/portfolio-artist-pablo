@@ -437,6 +437,50 @@ button {
   font-size: 0.9rem;
 }
 
+/* Writing Section Styles */
+
+.writing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.writing-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.writing-card h3 {
+  margin: 0;
+}
+
+.writing-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.writing-synopsis {
+  margin: 0;
+}
+
+.writing-section h4 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+}
+
+.writing-section ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.writing-section li {
+  color: var(--muted);
+}
+
 @media (max-width: 950px) {
   .hero,
   .two-column,
@@ -456,6 +500,10 @@ button {
   }
 
   .production-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .writing-grid {
     grid-template-columns: 1fr;
   }
 }

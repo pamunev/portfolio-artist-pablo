@@ -61,30 +61,70 @@ export const writingWorks = [
   {
     title: "I'm Not a Dog",
     type: "10-minute play",
-    description: "Selected for ScriptWorks Out of Ink 2026.",
-  },
-  {
-    title: "I Loved You Ever",
-    type: "One-act play",
-    description:
-      "Commissioned and produced by Walking Shadow Shakespeare Project.",
+    castSize: "3",
+    genre: "comedy, drama",
+    synopsis:
+      "Two married astrophysicists tasked with stopping an incoming asteroid are faced with their greatest challenge yet: fixing their relationship.",
+    history: [
+      "Selected and produced as part of ScriptWorks' 'Out of Ink 2026: Astronomical' at Hyde Park Theatre.",
+    ],
+    awards: [],
   },
   {
     title: "There's No Sand on the Moon",
-    type: "Play",
-    description: "Jarrott Productions Opening Act Initiative recipient.",
+    type: "Full-length play",
+    castSize: "8-14",
+    genre: "drama, magical realism, fantasy, period",
+    synopsis:
+      "A family of refugees boards a ship in the wake of a violent revolution and embarks on a magical realism tale about displacement, belonging, sacrifice for one's loved ones, and hope.",
+    history: [
+      "Sole selection for Jarrott Productions’ annual Opening Act Initiative; staged reading (April 2025).",
+      "Finalist for Boise Contemporary Theater's 2024 BIPOC Festival (May 2024).",
+    ],
+    awards: [],
   },
   {
+    title: "I Loved You Ever",
+    type: "One-act play (approx. 20 minutes)",
+    castSize: "3",
+    genre: "adaptation, drama, fantasy, parody/spoof, romantic comedy",
+    synopsis:
+      "A reimagining of a moment from Shakespeare's 'Hamlet.' Hamlet and Laertes reveal their love for each other at Ophelia’s funeral. Will Laertes be able to forgive, or are some obstacles too big for love to overcome?",
+    history: [
+      "Commissioned and produced by Walking Shadow Shakespeare Project.",
+      "Premiered in WSSP's Short Shakespeare 2026.",
+    ],
+    awards: [],
+  },
+
+  {
     title: "Bravo",
-    type: "Play",
-    description: "Ground Floor Theatre GFT Writes finalist.",
+    type: "Full-length play",
+    castSize: "4",
+    genre: "drama",
+    synopsis:
+      "When Victoria’s estranged ex-boyfriend turns up at their old friends’ reunion as she’s about to get engaged in the heavily gentrified Mexican lake town of Valle de Bravo, the members of the friend group are confronted with the past, their addictions, their regrets, their fears about themselves, and the ruthless inevitability of the passage of time.",
+    history: ["2025 finalist for Ground Floor Theatre’s GFT Writes."],
+    awards: [],
+  },
+  {
+    title: "Dreams",
+    type: "Ten-minute play",
+    castSize: "3",
+    genre: "comedy",
+    synopsis:
+      "A trio of estranged siblings reunites for a revival of an odd family tradition. Existential angst, discussions about familial responsibility, technologically advanced machinery, and tuna sandwiches ensue.",
+    history: [
+      "Selected and produced as part of ScriptWorks' 'Out of Ink 2023: Family Traditions' at Hyde Park Theatre.",
+    ],
+    awards: ["B. Iden Payne Award nominee, Outstanding Short Script (2023)"],
   },
 ];
 
 export const galleryProductions = [
   {
     slug: "dreams",
-    title: "DREAMS",
+    title: "Dreams",
     categories: ["Writing"],
     coverImage: "/images/dreams-toothpicking.JPG",
     alt: "Production image from DREAMS",
