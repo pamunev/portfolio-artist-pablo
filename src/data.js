@@ -177,21 +177,21 @@ export const galleryProductions = [
 export const reviewItems = [
   {
     excerpt:
-      "Munoz-Evers brings intensity, intelligence, and urgency to the role...",
-    source: "Example Review Source",
-    link: "https://example.com/review-1",
+      "Muñoz-Evers was indeed mercurial as this Mercutio—sudden, brilliant, mimicking, miming, carefree, and occasionally distracted. He moved quickly and gestured deftly, especially during the “Queen Mab” speech [...] His articulation and strong baritone voice are superb.",
+    source: "Romeo and Juliet, CTX Live Theatre Review",
+    link: "https://ctxlivetheatre.com/reviews/20240425-review-romeo-and-juliet-by-the-barons-men/",
   },
   {
     excerpt:
-      "A sharp, emotionally alive script that lingers well after the performance...",
-    source: "Example Publication",
-    link: "https://example.com/review-2",
+      "Never have I ever read Antony (Laura D’Eramo) and Caesar’s (Pablo Muñoz-Evers) relationship in such a queer light. Chemistry ripples between [...] Caesar and, well, everyone.",
+    source: "Caesar + Antony + Cleopatra, Austin Chronicle Review",
+    link: "https://www.austinchronicle.com/arts/arts-reviews/roman-intrigue-in-your-face/",
   },
   {
     excerpt:
-      "His work as a playwright balances theatricality with genuine emotional risk...",
-    source: "Example Arts Site",
-    link: "https://example.com/review-3",
+      "The audience of Shakespearephiles certainly enjoyed it, repeatedly hooting in laughter at the incongruities. One killer line delivered by Muñoz-Evers in the role of Laertes was 'Yeah, poisons are my thing' (you had to be there!).",
+    source: "I Loved You Ever by Pablo Munoz-Evers, CTX Live Theatre Review",
+    link: "https://ctxlivetheatre.com/reviews/20260312-review-short-shakespeare-three-plays-by-w/",
   },
 ];
 
@@ -215,8 +215,8 @@ export const newsItems = [
 ];
 
 export const contactInfo = {
-  email: "your@email.com",
-  instagram: "https://instagram.com/yourhandle",
+  email: "pamunev@gmail.com",
+  instagram: "https://instagram.com/pamunev",
   resume: "/resume-acting-april-2026.pdf",
   headshot: "/headshot-theatrical.jpg",
 };

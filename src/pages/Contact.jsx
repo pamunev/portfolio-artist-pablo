@@ -17,7 +17,7 @@ export default function Contact() {
         <p>
           <strong>Instagram:</strong>{" "}
           <a href={contactInfo.instagram} target="_blank" rel="noreferrer">
-            View profile
+            @pamunev
           </a>
         </p>
       </div>
