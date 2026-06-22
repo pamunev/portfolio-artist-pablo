@@ -251,6 +251,13 @@ export const theatreCredits = [
     director: "Stephanie Crugnola",
   },
   {
+    title: "Henry VI Part 1",
+    role: "Talbot",
+    company: "Walking Shadow Shakespeare Project",
+    year: "2025",
+    director: "Stephanie Crugnola",
+  },
+  {
     title: "MotherTree",
     role: "Bud",
     company: "The VORTEX",
